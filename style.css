@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+#button {
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 0 0 10 black;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#wrapperTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageButton {
+    margin: 20px;
+    padding: 10px;
+    font-size: 120%;
+    box-shadow: 0 0 10 black;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.orange {
+    background-color: orange;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 120, 120);
+    margin: 20px;
+    padding: 10px;
+}
+
+.answer {
+    background-color: white;
+    border: solid 1px black;
+}
+
+.answer1 {
+    background-color: white;
+    border: solid 1px black;
+    height: 20px;
+}
+
+#containerTwo {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 500px;
+}
+
+#containerThree {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 500px;
+}
+
+#buttonSubmit {
+    height: fit-content;
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#imageChange {
+    margin-top: 50px;
+}
